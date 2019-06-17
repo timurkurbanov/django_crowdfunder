@@ -127,13 +127,13 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Super Hacky "Dot-Env" (Don't use in production - yet!)
-import json
-secret_path = os.path.join(BASE_DIR, 'client_id.json')
-with open(secret_path, 'r') as f:
-    env = json.load(f)
+# import json
+# secret_path = os.path.join(BASE_DIR, 'client_id.json')
+# with open(secret_path, 'r') as f:
+#     env = json.load(f)
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = env['web']['client_id']
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = env['web']['client_secret']
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_KEY')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get('SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET')
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
