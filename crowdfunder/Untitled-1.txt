@@ -1,0 +1,62 @@
+code ~/.bash_profile
+source ~/.bash_profile
+./manage.py runserver
+
+heroku config:set SOCIAL_AUTH_GOOGLE_OAUTH2_KEY="141657733370-nkjtdp5qrcghtn8q873uiluqnaja9mhj.apps.googleusercontent.com"
+heroku config:set SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET="GXWAw3oAgW6q5S6r-AJ2v7L2"
+
+heroku local
+
+code .git/config 
+git push heroku master
+
+python -V
+pyenv versions
+pyenv install 3.7.3
+brew install zlib
+pyenv install 3.7.3 -vvv
+brew install xz
+pyenv install 3.7.3 -vvv
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+pyenv install 3.7.3 -vvv
+pyenv local 3.7.3
+
+pip install --upgrade pip
+pip install -r requirements.txt 
+
+history | grep venv
+history | grep env
+
+pyenv virtualenv crowdfunder-heroku
+pyenv activate crowdfunder-heroku 
+
+pip install -r requirements.txt 
+pip uninstall python-social-auth
+pip install python-social-auth
+
+pip install pipdeptree
+pipdeptree 
+
+./manage.py runserver
+git push heroku master
+./manage.py migrate
+
+createdb crowdfunder_dev
+./manage.py migrate
+./manage.py createsuperuser
+./manage.py runserver
+
+git push heroku master
+
+heroku logs --tail
+
+heroku run ./manage.py migrate
+heroku run python manage.py migrate
+heroku run python manage.py createsuperuser
+
+history
+git push origin master
+history
+env
+env | grep -i social
+history --help
