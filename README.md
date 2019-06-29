@@ -18,6 +18,6 @@ Team members:
 
 -Jessica Moore https://github.com/jessiicacmoore/
 
--Timur Kurbanov https://github.com/timurkurbanov https://www.linkedin.com/in/timur-kurbanov/ timkurbanov.ca
+-Timur Kurbanov https://github.com/timurkurbanov https://www.linkedin.com/in/timur-kurbanov/ www.timkurbanov.ca
 
 -Alexander G. Yang https://github.com/JudoboyAlex
