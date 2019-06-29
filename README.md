@@ -14,8 +14,10 @@ The app ment to clone from scratch https://www.kickstarter.com/
 
 -How to use? to be updated
 
-Team members: -Jessica Moore https://github.com/jessiicacmoore/
+Team members:
 
--Timur Kurbanov https://github.com/timurkurbanov https://www.linkedin.com/in/timur-kurbanov/
+-Jessica Moore https://github.com/jessiicacmoore/
+
+-Timur Kurbanov https://github.com/timurkurbanov https://www.linkedin.com/in/timur-kurbanov/ timkurbanov.ca
 
 -Alexander G. Yang https://github.com/JudoboyAlex
