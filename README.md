@@ -1,8 +1,12 @@
 # django_crowdfunder
 
--Project title Crowdfunder
+-Project title 
 
--Motivation The app met to clone from scratch https://www.kickstarter.com/
+Crowdfunder
+
+-Motivation 
+
+The app ment to clone from scratch https://www.kickstarter.com/
 
 -Screanshots to be updated
 
